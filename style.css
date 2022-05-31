@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: rgb(17, 134, 134);
+}
+
+.header-main-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  font-size: 25px;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.login,
+.signup {
+  padding: 4px 12px;
+}
+
+/* ---------------------------------------HEADER END------------------------------------ */
+
+
+.float-main-container {
+  height: 1000px;
+  align-items: center;
+  background-color: rgb(212, 206, 206);
+
+}
+
+.float-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 60px;
+  font-size: 30px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.bigbox {
+  margin: 0 auto;
+  outline: 2px solid red;
+  width: 270px;
+  height: 370px;
+  float: left;
+  margin-left: 30px;
+  background-color: cadetblue;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.smallbox {
+  outline: 2px solid red;
+  margin: 0px auto;
+  width: 70px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: cornsilk;
+
+}
+
+.float-container1 {
+  margin-left: 70px;
+}
+
+.float-container1-box1,
+.float-container2-box1,
+.float-container3-box1 {
+  margin-top: 50px;
+}
+
+.float-container1-box2 {
+  background-color: blueviolet;
+}
+
+.float-container2-box2 {
+  float: left;
+  background-color: blueviolet;
+}
+
+.float-container3-box2 {
+  float: right;
+  background-color: blueviolet;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+.unique-main-container {
+
+  height: 1000px;
+  align-items: center;
+  background-color: rgb(212, 206, 206);
+
+}
+
+.unique-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 60px;
+  font-size: 30px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.unique-bigbox {
+  position: relative;
+  margin: 0 auto;
+  outline: 2px solid red;
+  width: 270px;
+  height: 370px;
+  float: left;
+  margin-left: 30px;
+  background-color: cadetblue;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.unique-smallbox {
+
+  outline: 2px solid red;
+  margin: 0px auto;
+  width: 70px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: cornsilk;
+
+}
+
+.unique-container1 {
+  margin-left: 70px;
+}
+
+.unique-container1-box1,
+.unique-container2-box1,
+.unique-container3-box1 {
+  margin-top: 50px;
+}
+
+.unique-container1-box2 {
+  background-color: blueviolet;
+}
+
+.unique-container2-box2 {
+  float: left;
+  background-color: blueviolet;
+}
+
+.unique-container3-box2 {
+  float: right;
+  background-color: blueviolet;
+}
