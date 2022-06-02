@@ -1,1 +1,1 @@
-<img src="output-image.png" alt="image">
+<img src="CSS-containers-output.png" alt="image">

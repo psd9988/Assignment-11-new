@@ -5,13 +5,13 @@ body {
 }
 
 header {
-  background-color: rgb(17, 134, 134);
+  background-color: rgb(73, 38, 198);
 }
 
 .header-main-container {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 80px;
   align-items: center;
   font-size: 25px;
   padding: 0px 20px;
@@ -19,21 +19,32 @@ header {
 
 a {
   text-decoration: none;
-  color: white;
+  color: aqua;
+}
+
+.login {
+  margin-right: 10px;
 }
 
 .login,
 .signup {
   padding: 4px 12px;
+  background-color: aqua;
+  border: none;
+}
+
+.login,
+.signup:hover {
+  cursor: pointer;
 }
 
 /* ---------------------------------------HEADER END------------------------------------ */
 
 
 .float-main-container {
-  height: 1000px;
+  height: 700px;
   align-items: center;
-  background-color: rgb(212, 206, 206);
+  background-color: rgb(66, 237, 112);
 
 }
 
@@ -61,19 +72,35 @@ a {
 
 
 .smallbox {
-  outline: 2px solid red;
+  outline: 4px solid green;
   margin: 0px auto;
   width: 70px;
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
   padding-top: 30px;
-  background-color: cornsilk;
+  background-color: lightcoral;
+  color: black;
 
 }
 
 .float-container1 {
   margin-left: 70px;
+}
+
+.float-container1-box2,
+.float-container1-box3 {
+  margin-top: 30px;
+}
+
+.float-container2-box2,
+.float-container3-box2 {
+  margin-top: 40px;
+}
+
+.float-container2-box3,
+.float-container3-box3 {
+  margin-top: 50px;
 }
 
 .float-container1-box1,
@@ -98,15 +125,12 @@ a {
 
 
 
-
-
 /* ----------------------------------------------------------------------------- */
 
 .unique-main-container {
-
-  height: 1000px;
+  height: 600px;
   align-items: center;
-  background-color: rgb(212, 206, 206);
+  background-color: rgb(174, 69, 95);
 
 }
 
@@ -119,6 +143,7 @@ a {
   letter-spacing: 1px;
 }
 
+
 .unique-bigbox {
   position: relative;
   margin: 0 auto;
@@ -126,8 +151,8 @@ a {
   width: 270px;
   height: 370px;
   float: left;
-  margin-left: 30px;
-  background-color: cadetblue;
+  margin-left: 55px;
+  background-color: darkorange;
   padding-left: 10px;
   padding-right: 10px;
 
@@ -135,38 +160,311 @@ a {
 
 
 .unique-smallbox {
-
-  outline: 2px solid red;
-  margin: 0px auto;
+  position: absolute;
+  outline: 8px solid red;
+  padding-top: 30px;
   width: 70px;
   height: 40px;
-  margin-bottom: 10px;
   text-align: center;
-  padding-top: 30px;
   background-color: cornsilk;
+  margin-left: 35%;
 
-}
-
-.unique-container1 {
-  margin-left: 70px;
 }
 
 .unique-container1-box1,
 .unique-container2-box1,
 .unique-container3-box1 {
   margin-top: 50px;
+  background-color: white;
 }
 
-.unique-container1-box2 {
-  background-color: blueviolet;
+.unique-container1-box2,
+.unique-container2-box2,
+.unique-container3-box2 {
+  background-color: lawngreen;
+  margin-top: 150px;
+
 }
 
 .unique-container2-box2 {
-  float: left;
-  background-color: blueviolet;
+  margin-top: 210px;
+  margin-left: 140px;
+  z-index: 1;
 }
 
+.unique-container1-box3,
+.unique-container2-box3,
+.unique-container3-box3 {
+  background-color: white;
+  margin-top: 250px;
+}
+
+
 .unique-container3-box2 {
-  float: right;
-  background-color: blueviolet;
+  position: absolute;
+  margin-left: 27px;
+  margin-top: 150px;
+  z-index: 2;
+
+}
+
+.unique-container3-box3 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 150px;
+
+}
+
+.letter {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+
+/* --------------------------scroll text start------------------------------ */
+
+.scroll-text-container-main {
+  padding: 50px 0px;
+  background-color: darkorchid;
+}
+
+
+.scroll-text-container {
+  background-color: bisque;
+  outline: 1px solid red;
+  overflow: scroll;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+
+  align-content: center;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.heading-scroll {
+  text-align: center;
+  margin-bottom: 30px;
+  color: chartreuse;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 30px;
+}
+
+/* ---------------------------------------Scroll END------------------------------------ */
+
+
+/* ---------------------------------------flex container one start------------------------------------ */
+
+
+.flex-box-container-one {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.flex-items {
+  padding-top: 50px;
+  width: 100px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* ---------------------------------------flex container one end------------------------------------ */
+
+
+
+/* ---------------------------------------flex container two start ------------------------------------ */
+
+
+.flex-box-container-two {
+  background-color: cornflowerblue;
+  padding-bottom: 50px;
+
+}
+
+.flex-container2-sub-container1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+}
+
+.flex-container2-sub-container2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container2-sub-container3 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container2-sub-container4 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.newitems {
+  padding-top: 50px;
+  margin-left: 15px;
+  width: 100px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* ---------------------------------------flex container two end ------------------------------------ */
+
+
+/* ---------------------------------------flex container three start ------------------------------------ */
+
+
+
+.itemz-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  background-color: chocolate;
+
+}
+
+.itemz {
+  padding-top: 50px;
+  width: 100px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.itemz1 {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.itemz2,
+.itemz4,
+.itemz5 {
+  flex: 1;
+}
+
+.itemz3 {
+  flex: 3;
+}
+
+
+/* ---------------------------------------flex container three end ------------------------------------ */
+
+
+
+
+/* ---------------------------------------flex container four start ------------------------------------ */
+
+.flex-box-container-four {
+  background-color: rgb(28, 213, 213);
+
+}
+
+.itemx-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.one-separate-xitem {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+}
+
+
+.itemx {
+  padding-top: 50px;
+  width: 100px;
+  height: 70px;
+  border: 4px solid red;
+  text-align: center;
+  font-size: 20px;
+  background-color: darkorange;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+/* ---------------------------------------flex container four end ------------------------------------ */
+
+footer {
+  background-color: rgb(7, 40, 170);
+  height: 50px;
+}
+
+.footer-container {
+  line-height: 30px;
+  margin-bottom: 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footers-text-container {
+  display: flex;
+}
+
+.fa-copyright,
+.footer-text {
+  color: wheat;
+  margin-left: 5px;
+}
+
+
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook {
+  color: white;
+  margin-right: 20px;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook:hover {
+  cursor: pointer;
+}
+
+.fa-facebook {
+  margin-right: 500px;
 }
